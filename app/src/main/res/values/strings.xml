@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DrawingCurve/Line</string>
+    <string name="action_settings">Settings</string>
+    <string name="draw_line">Draw line</string>
+    <string name="draw_quadratic">Draw quadratic curve</string>
+    <string name="draw_cubic">Draw cubic curver</string>
+</resources>

@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.xionces.drawingcurveline.MainActivity">
+    <item
+        android:id="@+id/action_line"
+        android:orderInCategory="100"
+        android:title="@string/draw_line"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_quadratic"
+        android:orderInCategory="100"
+        android:title="@string/draw_quadratic"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_cubic"
+        android:orderInCategory="100"
+        android:title="@string/draw_cubic"
+        app:showAsAction="never" />
+
+
+</menu>
