@@ -13,7 +13,6 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         curve.setTag("Curve");
         ViewGroup.LayoutParams params = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         curve.setLayoutParams(params);
+
 
     }
 
@@ -78,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
                     path.lineTo(Integer.parseInt(x2.getText().toString()), Integer.parseInt(y2.getText().toString()));
                     curve.init(path);
                     main_layout.addView(curve);
+                    main_layout.findViewById(R.id.imageView).setVisibility(View.INVISIBLE);
                 } catch (NumberFormatException e) {
                     e.printStackTrace();
                 }
@@ -126,6 +127,7 @@ public class MainActivity extends AppCompatActivity {
                     path.quadTo(Integer.parseInt(x2.getText().toString()), Integer.parseInt(y2.getText().toString()), Integer.parseInt(x3.getText().toString()), Integer.parseInt(y3.getText().toString()));
                     curve.init(path);
                     main_layout.addView(curve);
+                    main_layout.findViewById(R.id.imageView).setVisibility(View.INVISIBLE);
                 } catch (NumberFormatException e) {
                     e.printStackTrace();
                 }
@@ -175,6 +177,7 @@ public class MainActivity extends AppCompatActivity {
                             Integer.parseInt(x4.getText().toString()), Integer.parseInt(y4.getText().toString()));
                     curve.init(path);
                     main_layout.addView(curve);
+                    main_layout.findViewById(R.id.imageView).setVisibility(View.INVISIBLE);
                 } catch (NumberFormatException e) {
                     e.printStackTrace();
                 }
