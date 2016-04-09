@@ -5,4 +5,14 @@
     <string name="draw_line">Doğru çizimi</string>
     <string name="draw_quadratic">Kuadratik Eğri çizimi</string>
     <string name="draw_cubic">Kubik eğri çizimi</string>
+    <string name="cancel">İptal</string>
+    <string name="points">Çizilecek noktalar</string>
+    <string name="start_points">Başlangıç noktaları</string>
+    <string name="end_points">Bitiş noktaları</string>
+    <string name="middle_points">Kırılma Noktası</string>
+    <string name="third_points">Üçüncü nokta</string>
+    <string name="second_points">İkinci Nokta</string>
+    <string name="first_points">Birinci Nokta</string>
+    <string name="clear">Temizle</string>
+
 </resources>

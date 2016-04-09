@@ -4,4 +4,13 @@
     <string name="draw_line">Draw line</string>
     <string name="draw_quadratic">Draw quadratic curve</string>
     <string name="draw_cubic">Draw cubic curver</string>
+    <string name="cancel">Cancel</string>
+    <string name="points">Write your points</string>
+    <string name="start_points">Start Points</string>
+    <string name="end_points">End Points</string>
+    <string name="middle_points">Middle Points</string>
+    <string name="third_points">Third Points</string>
+    <string name="second_points">Second Points</string>
+    <string name="first_points">First Points</string>
+    <string name="clear">Clear</string>
 </resources>
